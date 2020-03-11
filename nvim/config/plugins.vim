@@ -27,6 +27,15 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" indendation for python specifically
+Plug 'vim-scripts/indentpython.vim'
+
+" PEP8 checking
+Plug 'nvie/vim-flake8'
+
+" Git integration
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 filetype plugin indent on    " required
 
